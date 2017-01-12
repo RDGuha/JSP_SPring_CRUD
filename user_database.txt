@@ -1,8 +1,11 @@
+
 create table user
 (
-uid bigint IDENTITY(100,20),
+
+uid bigint IDENTITY(100,20),  // it will generate the user id, starting from 100 and an increament of 20 for each next user.
 name varchar2(30), 
 email varchar2(30), 
 mobile varchar2(10),
 address varchar2(30)
+
 );
